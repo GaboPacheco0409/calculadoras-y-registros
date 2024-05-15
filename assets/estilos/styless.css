@@ -1,0 +1,203 @@
+header{
+    padding-top: 50px;
+  }
+  body {
+      background-color: khaki;
+      padding: 15px;
+      background-image: url(https://img.pikbest.com/back_our/20210324/bg/5125587e88dbe.png!w700wp);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    .titulos {
+      text-align: center;
+      color: rgb(0, 19, 139);
+    }
+    .respuesta {
+      background-color: rgb(195, 208, 152);
+      color: black;
+      padding: 16px;
+      text-align: center;
+      font-size: 20px;
+      margin: 5px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      background-color: burlywood;
+    }
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      background-color: burlywood;
+    }
+    button {
+      background-color: brown;
+      color: azure;
+      font-size: 16px;
+      padding: 10px;
+    }
+  .menu{
+    background-color: rgb(0, 106, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu .navbar ul li{
+      position: relative;
+      float: right;
+      list-style: none;
+  }
+  .menu .navbar ul li a{
+      padding: 20px;
+      color: #DEDEDE;
+      display: block;
+      font-weight: bold;
+      float: right;
+      text-decoration: none;
+      font-size: 20px;
+  }
+  .menu .navbar ul li a:hover{
+      color:white;
+      text-decoration: none;
+  }
+  #menu{
+      display: none;
+  }
+  .menu-icono{
+      width: 40px;
+  }
+  .menu label{
+      cursor: pointer;
+      display: none;
+  }
+  section{
+    padding: 100px;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  
+  }
+  .iconos{
+    display: grid;
+    grid-template-columns: 50px 50px 60px;
+    
+  }
+  .icono1{
+    margin: 20px;
+  
+  }
+  .formulario{
+    background-color: rgb(187, 238, 238);
+    background-size: cover;
+    margin: 0;
+    padding: 30px;
+  }
+  body .formulario{
+    margin: 0;
+  }
+  
+  @media(max-width: 400px){
+      .content{
+          min-height: 70px;
+      }
+      .menu{
+          top: 0;
+          padding: 20px;
+      }
+      .menu label{
+          display: initial;
+      }
+      .menu .navbar{
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background-color: orange;
+          display: none;
+          width: 100%;
+          margin-bottom: 10px;
+      }
+      .menu .navbar .ul .li{
+          width: 30%;
+      }
+      #menu:checked ~ .navbar{
+          display: initial;
+      }
+      section{
+        margin-top: 120px;
+      }
+      button{
+        margin: 10px;
+      }
+      }
+      @media(max-width: 991px){
+        .content{
+            min-height: 70px;
+        }
+        .menu{
+            top: 0;
+            padding: 20px;
+        }
+        .menu label{
+            display: initial;
+        }
+        .menu .navbar{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: orange;
+            display: none;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .menu .navbar .ul .li{
+            width: 30%;
+        }
+        #menu:checked ~ .navbar{
+            display: initial;
+        }
+        section{
+          margin-top: 300px;
+        }
+        button{
+          margin: 10px;
+        }
+        }
+        .grid-container3{
+          display: grid;
+          grid-template-columns: 300px 300px 300px 300px;
+          grid-template-rows: auto;
+          margin: 10px 150px 50px;
+          column-gap: 20px;
+          color: aliceblue;
+          display: flex;
+          justify-content: center;
+      }
+      .subsubitem2{
+        grid-column-start:2 ;
+        grid-column-end: 4;
+    }
+  
+    .subsubitem2 a{
+      text-decoration: none;
+      color: rgb(1, 153, 42);
+  }
+    footer{
+      background-color: rgb(134, 131, 131);
+      padding-bottom: 50px;
+    }
